@@ -123,6 +123,7 @@ build/doc
 build/examples
 build/python/CMakeFiles
 build/python/openpose/CMakeFiles
+build/python/openpose/openpose.egg-info
 build/python/openpose/cmake_install.cmake
 build/python/openpose/Makefile
 build/python/cmake_install.cmake

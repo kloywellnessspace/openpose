@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openpose"
+version = "1.0.0"
+description = "Python API for OpenPose"
+authors = [{ name="CMU Perceptual Computing Lab" }]
+readme = "README.md"
+requires-python = ">=3.7"
+
+[tool.setuptools.packages.find]
+where = ["."]
