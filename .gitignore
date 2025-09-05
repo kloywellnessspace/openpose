@@ -6,7 +6,7 @@
 *.cuo
 
 # Compiled Dynamic libraries
-*.so*
+# *.so*
 *.dylib
 
 # Compiled Static libraries
@@ -115,8 +115,25 @@ distribute/
 ######################### Compilation (build, distribute & bins) Files / Folders #########################
 *.bin
 *.testbin
-build
-build*
+build/3rdparty
+build/caffe
+build/cmake
+build/CMakeFiles
+build/doc
+build/examples
+build/python/CMakeFiles
+build/python/openpose/CMakeFiles
+build/python/openpose/cmake_install.cmake
+build/python/openpose/Makefile
+build/python/cmake_install.cmake
+build/include
+build/models
+build/scripts
+build/src
+build/cmake_install.cmake
+build/cmake_uninstall.cmake
+build/CMakeCache.txt
+build/detect_cuda_archs.cu
 .build*
 *cmake_build
 distribute/*
